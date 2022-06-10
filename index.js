@@ -53,6 +53,10 @@ bot.on('time', function() {
     }
 });
 
+bot.on('spawn', () => {
+  bot.chat('/login heloo')
+});
+
 bot.on('spawn',function() {
     connected=1;
 });
