@@ -54,7 +54,7 @@ bot.on('time', function() {
 });
 
 bot.on('spawn', () => {
-  bot.chat('/login heloo')
+  bot.chat('/login 290903')
 });
 
 bot.on('spawn',function() {
