@@ -53,11 +53,11 @@ bot.on('time', function() {
     }
 });
 
-bot.on('spawn', () => {
-  bot.chat('/login 290903')
-});
-
 bot.on('spawn',function() {
     connected=1;
+});
+
+bot.on('spawn', () => {
+  bot.chat('/login 290903')
 });
 
